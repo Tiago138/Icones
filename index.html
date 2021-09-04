@@ -1,0 +1,1611 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Icones</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+      body {
+        background-color: #4c566a;
+      }
+      article {
+        width: 720px;
+        margin: 0 auto;
+        background-image: linear-gradient(to top, #d8dee9, white);
+        border-radius: 5px;
+        border: 1px solid rgba(0, 0, 0, 0.5);
+      }
+      ul {
+        list-style: none;
+        font-size: 1.5em;
+      }
+      li {
+        width: 210px;
+        color: #2e3440;
+        float: left;
+        margin: 5px;
+        border: 1px solid rgba(0, 0, 0, 0);
+        border-radius: 5px;
+      }
+      @font-face {
+        font-family: openiconic;
+        src: url(/fonts/open-iconic.woff) format("woff");
+        font-weight: normal;
+        font-style: normal;
+      }
+      .icon::before {
+        font-family: openiconic;
+        font-size: 48px;
+        float: left;
+        margin: 0 5px;
+      }
+      li:hover {
+        border: 1px solid rgba(0, 0, 0, 0.3);
+        border-radius: 5px;
+      }
+      .account-login::before {
+        content: "\e000";
+      }
+      .account-logout::before {
+        content: "\e001";
+      }
+      .action-redo::before {
+        content: "\e002";
+      }
+      .action-undo::before {
+        content: "\e003";
+      }
+      .align-center::before {
+        content: "\e004";
+      }
+      .align-left::before {
+        content: "\e005";
+      }
+      .align-right::before {
+        content: "\e006";
+      }
+      .aperture::before {
+        content: "\e007";
+      }
+      .arrow-bottom::before {
+        content: "\e008";
+      }
+      .arrow-circle-bottom::before {
+        content: "\e009";
+      }
+      .arrow-circle-left::before {
+        content: "\e00a";
+      }
+      .arrow-circle-right::before {
+        content: "\e00b";
+      }
+      .card {
+        font-family: openiconic;
+        width: 220px;
+        border-radius: 5px;
+        padding: 10px;
+      }
+      .light {
+        background-image: linear-gradient(to top, #e5e9f0, #eceff4);
+        border: 1px solid rgba(0, 0, 0, 0.3);
+        float: left;
+      }
+      .dark {
+        background-image: linear-gradient(to top, #2e3440, #3b4252);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        float: right;
+      }
+      .conjunto {
+        width: 490px;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        margin: -192px 0 0 -245px;
+        z-index: 1;
+        opacity: 1;
+        display: none;
+      }
+      .t08::before {
+        font-size: 8px;
+      }
+      .t16::before {
+        font-size: 16px;
+      }
+      .t24::before {
+        font-size: 24px;
+      }
+      .t32::before {
+        font-size: 32px;
+      }
+      .t48::before {
+        font-size: 48px;
+      }
+      .t64::before {
+        font-size: 64px;
+      }
+      .black {
+        color: black;
+      }
+      .white {
+        color: white;
+      }
+      .aurora1 {
+        color: #bf616a;
+      }
+      .aurora2 {
+        color: #d08770;
+      }
+      .aurora3 {
+        color: #ebcb8b;
+      }
+      .aurora4 {
+        color: #a3be8c;
+      }
+      .aurora5 {
+        color: #b48ead;
+      }
+      .overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0);
+        width: 100%;
+        height: 100%;
+        display: none;
+      }
+      .cf::before,
+      .cf::after {
+        content: "";
+        display: table;
+      }
+      .cf::after {
+        clear: both;
+      }
+      .code {
+        background-color: #3b4252;
+        color: white;
+        width: 700px;
+        margin: 0 auto;
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+      }
+      .frost1 {
+        color: #8fbcbb;
+      }
+      .frost2 {
+        color: #88c0d0;
+      }
+      .frost3 {
+        color: #81a1c1;
+      }
+      .frost4 {
+        color: #5e81ac;
+      }
+      .box {
+        width: 345px;
+        margin-left: 150px;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <div class="code">
+        <div class="box">
+          <p><span class="frost3">@font-face</span> {</p>
+          <p>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbspfont-family:
+            <span class="frost2">openiconic</span><span class="frost3">;</span>
+          </p>
+          <p>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbspsrc:
+            <span class="frost2">url</span>(/fonts/open-iconic.woff)
+            <span class="frost2">format</span>("<span class="aurora4">woff</span
+            >")<span class="frost3">;</span>
+          </p>
+          <p>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbspfont-weight:
+            <span class="frost3">normal;</span>
+          </p>
+          <p>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbspfont-style:
+            <span class="frost3">normal;</span>
+          </p>
+          <p>}</p>
+          <p>
+            .<span class="frost1">icon</span>::<span class="frost1"
+              >before</span
+            >
+            {
+          </p>
+          <p>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbspfont-family:
+            <span class="frost2">openiconic</span><span class="frost3">;</span>
+          </p>
+          <p>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbspfont-size:
+            <span class="aurora5">48</span><span class="frost3">px;</span>
+          </p>
+          <p>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbspfloat:
+            <span class="frost3">left;</span>
+          </p>
+          <p>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbspmargin:
+            <span class="aurora5">0 5</span><span class="frost3">px;</span>
+          </p>
+          <p>}</p>
+          <p>
+            .<span class="frost1">account-login</span>::<span class="frost1"
+              >before</span
+            >
+            {
+          </p>
+          <p>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbspcontent: "<span
+              class="aurora3"
+              >\e000</span
+            >"<span class="frost3">;</span>
+          </p>
+          <p>}</p>
+        </div>
+      </div>
+      <article class="cf">
+        <ul>
+          <li id="show-modal1" href="javascript:;" class="icon account-login">
+            account-login e000
+          </li>
+          <li id="show-modal2" href="javascript:;" class="icon account-logout">
+            account-logout e001
+          </li>
+          <li id="show-modal3" href="javascript:;" class="icon action-redo">
+            action-redo e002
+          </li>
+          <li id="show-modal4" href="javascript:;" class="icon action-undo">
+            action-undo e003
+          </li>
+          <li id="show-modal5" href="javascript:;" class="icon align-center">
+            align-center e004
+          </li>
+          <li id="show-modal6" href="javascript:;" class="icon align-left">
+            align-left <br />
+            e005
+          </li>
+          <li id="show-modal7" href="javascript:;" class="icon align-right">
+            align-right e006
+          </li>
+          <li id="show-modal8" href="javascript:;" class="icon aperture">
+            aperture <br />
+            e007
+          </li>
+          <li id="show-modal9" href="javascript:;" class="icon arrow-bottom">
+            arrow-bottom e008
+          </li>
+          <li
+            id="show-modal10"
+            href="javascript:;"
+            class="icon arrow-circle-bottom"
+          >
+            arrow-circle-bottom e009
+          </li>
+          <li
+            id="show-modal11"
+            href="javascript:;"
+            class="icon arrow-circle-left"
+          >
+            arrow-circle-left e00a
+          </li>
+          <li
+            id="show-modal12"
+            href="javascript:;"
+            class="icon arrow-circle-right"
+          >
+            arrow-circle-right e00b
+          </li>
+        </ul>
+      </article>
+    </section>
+    <div class="conjunto c1">
+      <div class="card light">
+        <div class="black">
+          <span class="t08 account-login"></span>
+          <span class="t16 account-login"></span>
+          <span class="t24 account-login"></span>
+          <span class="t32 account-login"></span>
+          <span class="t48 account-login"></span>
+          <span class="t64 account-login"></span>
+        </div>
+        <div class="aurora1">
+          <span class="t08 account-login"></span>
+          <span class="t16 account-login"></span>
+          <span class="t24 account-login"></span>
+          <span class="t32 account-login"></span>
+          <span class="t48 account-login"></span>
+          <span class="t64 account-login"></span>
+        </div>
+        <div class="aurora2">
+          <span class="t08 account-login"></span>
+          <span class="t16 account-login"></span>
+          <span class="t24 account-login"></span>
+          <span class="t32 account-login"></span>
+          <span class="t48 account-login"></span>
+          <span class="t64 account-login"></span>
+        </div>
+        <div class="aurora3">
+          <span class="t08 account-login"></span>
+          <span class="t16 account-login"></span>
+          <span class="t24 account-login"></span>
+          <span class="t32 account-login"></span>
+          <span class="t48 account-login"></span>
+          <span class="t64 account-login"></span>
+        </div>
+        <div class="aurora4">
+          <span class="t08 account-login"></span>
+          <span class="t16 account-login"></span>
+          <span class="t24 account-login"></span>
+          <span class="t32 account-login"></span>
+          <span class="t48 account-login"></span>
+          <span class="t64 account-login"></span>
+        </div>
+        <div class="aurora5">
+          <span class="t08 account-login"></span>
+          <span class="t16 account-login"></span>
+          <span class="t24 account-login"></span>
+          <span class="t32 account-login"></span>
+          <span class="t48 account-login"></span>
+          <span class="t64 account-login"></span>
+        </div>
+      </div>
+      <div class="card dark">
+        <div class="white">
+          <span class="t08 account-login"></span>
+          <span class="t16 account-login"></span>
+          <span class="t24 account-login"></span>
+          <span class="t32 account-login"></span>
+          <span class="t48 account-login"></span>
+          <span class="t64 account-login"></span>
+        </div>
+        <div class="aurora1">
+          <span class="t08 account-login"></span>
+          <span class="t16 account-login"></span>
+          <span class="t24 account-login"></span>
+          <span class="t32 account-login"></span>
+          <span class="t48 account-login"></span>
+          <span class="t64 account-login"></span>
+        </div>
+        <div class="aurora2">
+          <span class="t08 account-login"></span>
+          <span class="t16 account-login"></span>
+          <span class="t24 account-login"></span>
+          <span class="t32 account-login"></span>
+          <span class="t48 account-login"></span>
+          <span class="t64 account-login"></span>
+        </div>
+        <div class="aurora3">
+          <span class="t08 account-login"></span>
+          <span class="t16 account-login"></span>
+          <span class="t24 account-login"></span>
+          <span class="t32 account-login"></span>
+          <span class="t48 account-login"></span>
+          <span class="t64 account-login"></span>
+        </div>
+        <div class="aurora4">
+          <span class="t08 account-login"></span>
+          <span class="t16 account-login"></span>
+          <span class="t24 account-login"></span>
+          <span class="t32 account-login"></span>
+          <span class="t48 account-login"></span>
+          <span class="t64 account-login"></span>
+        </div>
+        <div class="aurora5">
+          <span class="t08 account-login"></span>
+          <span class="t16 account-login"></span>
+          <span class="t24 account-login"></span>
+          <span class="t32 account-login"></span>
+          <span class="t48 account-login"></span>
+          <span class="t64 account-login"></span>
+        </div>
+      </div>
+    </div>
+    <div class="conjunto c2">
+      <div class="card light">
+        <div class="black">
+          <span class="t08 account-logout"></span>
+          <span class="t16 account-logout"></span>
+          <span class="t24 account-logout"></span>
+          <span class="t32 account-logout"></span>
+          <span class="t48 account-logout"></span>
+          <span class="t64 account-logout"></span>
+        </div>
+        <div class="aurora1">
+          <span class="t08 account-logout"></span>
+          <span class="t16 account-logout"></span>
+          <span class="t24 account-logout"></span>
+          <span class="t32 account-logout"></span>
+          <span class="t48 account-logout"></span>
+          <span class="t64 account-logout"></span>
+        </div>
+        <div class="aurora2">
+          <span class="t08 account-logout"></span>
+          <span class="t16 account-logout"></span>
+          <span class="t24 account-logout"></span>
+          <span class="t32 account-logout"></span>
+          <span class="t48 account-logout"></span>
+          <span class="t64 account-logout"></span>
+        </div>
+        <div class="aurora3">
+          <span class="t08 account-logout"></span>
+          <span class="t16 account-logout"></span>
+          <span class="t24 account-logout"></span>
+          <span class="t32 account-logout"></span>
+          <span class="t48 account-logout"></span>
+          <span class="t64 account-logout"></span>
+        </div>
+        <div class="aurora4">
+          <span class="t08 account-logout"></span>
+          <span class="t16 account-logout"></span>
+          <span class="t24 account-logout"></span>
+          <span class="t32 account-logout"></span>
+          <span class="t48 account-logout"></span>
+          <span class="t64 account-logout"></span>
+        </div>
+        <div class="aurora5">
+          <span class="t08 account-logout"></span>
+          <span class="t16 account-logout"></span>
+          <span class="t24 account-logout"></span>
+          <span class="t32 account-logout"></span>
+          <span class="t48 account-logout"></span>
+          <span class="t64 account-logout"></span>
+        </div>
+      </div>
+      <div class="card dark">
+        <div class="white">
+          <span class="t08 account-logout"></span>
+          <span class="t16 account-logout"></span>
+          <span class="t24 account-logout"></span>
+          <span class="t32 account-logout"></span>
+          <span class="t48 account-logout"></span>
+          <span class="t64 account-logout"></span>
+        </div>
+        <div class="aurora1">
+          <span class="t08 account-logout"></span>
+          <span class="t16 account-logout"></span>
+          <span class="t24 account-logout"></span>
+          <span class="t32 account-logout"></span>
+          <span class="t48 account-logout"></span>
+          <span class="t64 account-logout"></span>
+        </div>
+        <div class="aurora2">
+          <span class="t08 account-logout"></span>
+          <span class="t16 account-logout"></span>
+          <span class="t24 account-logout"></span>
+          <span class="t32 account-logout"></span>
+          <span class="t48 account-logout"></span>
+          <span class="t64 account-logout"></span>
+        </div>
+        <div class="aurora3">
+          <span class="t08 account-logout"></span>
+          <span class="t16 account-logout"></span>
+          <span class="t24 account-logout"></span>
+          <span class="t32 account-logout"></span>
+          <span class="t48 account-logout"></span>
+          <span class="t64 account-logout"></span>
+        </div>
+        <div class="aurora4">
+          <span class="t08 account-logout"></span>
+          <span class="t16 account-logout"></span>
+          <span class="t24 account-logout"></span>
+          <span class="t32 account-logout"></span>
+          <span class="t48 account-logout"></span>
+          <span class="t64 account-logout"></span>
+        </div>
+        <div class="aurora5">
+          <span class="t08 account-logout"></span>
+          <span class="t16 account-logout"></span>
+          <span class="t24 account-logout"></span>
+          <span class="t32 account-logout"></span>
+          <span class="t48 account-logout"></span>
+          <span class="t64 account-logout"></span>
+        </div>
+      </div>
+    </div>
+    <div class="conjunto c3">
+      <div class="card light">
+        <div class="black">
+          <span class="t08 action-redo"></span>
+          <span class="t16 action-redo"></span>
+          <span class="t24 action-redo"></span>
+          <span class="t32 action-redo"></span>
+          <span class="t48 action-redo"></span>
+          <span class="t64 action-redo"></span>
+        </div>
+        <div class="aurora1">
+          <span class="t08 action-redo"></span>
+          <span class="t16 action-redo"></span>
+          <span class="t24 action-redo"></span>
+          <span class="t32 action-redo"></span>
+          <span class="t48 action-redo"></span>
+          <span class="t64 action-redo"></span>
+        </div>
+        <div class="aurora2">
+          <span class="t08 action-redo"></span>
+          <span class="t16 action-redo"></span>
+          <span class="t24 action-redo"></span>
+          <span class="t32 action-redo"></span>
+          <span class="t48 action-redo"></span>
+          <span class="t64 action-redo"></span>
+        </div>
+        <div class="aurora3">
+          <span class="t08 action-redo"></span>
+          <span class="t16 action-redo"></span>
+          <span class="t24 action-redo"></span>
+          <span class="t32 action-redo"></span>
+          <span class="t48 action-redo"></span>
+          <span class="t64 action-redo"></span>
+        </div>
+        <div class="aurora4">
+          <span class="t08 action-redo"></span>
+          <span class="t16 action-redo"></span>
+          <span class="t24 action-redo"></span>
+          <span class="t32 action-redo"></span>
+          <span class="t48 action-redo"></span>
+          <span class="t64 action-redo"></span>
+        </div>
+        <div class="aurora5">
+          <span class="t08 action-redo"></span>
+          <span class="t16 action-redo"></span>
+          <span class="t24 action-redo"></span>
+          <span class="t32 action-redo"></span>
+          <span class="t48 action-redo"></span>
+          <span class="t64 action-redo"></span>
+        </div>
+      </div>
+      <div class="card dark">
+        <div class="white">
+          <span class="t08 action-redo"></span>
+          <span class="t16 action-redo"></span>
+          <span class="t24 action-redo"></span>
+          <span class="t32 action-redo"></span>
+          <span class="t48 action-redo"></span>
+          <span class="t64 action-redo"></span>
+        </div>
+        <div class="aurora1">
+          <span class="t08 action-redo"></span>
+          <span class="t16 action-redo"></span>
+          <span class="t24 action-redo"></span>
+          <span class="t32 action-redo"></span>
+          <span class="t48 action-redo"></span>
+          <span class="t64 action-redo"></span>
+        </div>
+        <div class="aurora2">
+          <span class="t08 action-redo"></span>
+          <span class="t16 action-redo"></span>
+          <span class="t24 action-redo"></span>
+          <span class="t32 action-redo"></span>
+          <span class="t48 action-redo"></span>
+          <span class="t64 action-redo"></span>
+        </div>
+        <div class="aurora3">
+          <span class="t08 action-redo"></span>
+          <span class="t16 action-redo"></span>
+          <span class="t24 action-redo"></span>
+          <span class="t32 action-redo"></span>
+          <span class="t48 action-redo"></span>
+          <span class="t64 action-redo"></span>
+        </div>
+        <div class="aurora4">
+          <span class="t08 action-redo"></span>
+          <span class="t16 action-redo"></span>
+          <span class="t24 action-redo"></span>
+          <span class="t32 action-redo"></span>
+          <span class="t48 action-redo"></span>
+          <span class="t64 action-redo"></span>
+        </div>
+        <div class="aurora5">
+          <span class="t08 action-redo"></span>
+          <span class="t16 action-redo"></span>
+          <span class="t24 action-redo"></span>
+          <span class="t32 action-redo"></span>
+          <span class="t48 action-redo"></span>
+          <span class="t64 action-redo"></span>
+        </div>
+      </div>
+    </div>
+    <div class="conjunto c4">
+      <div class="card light">
+        <div class="black">
+          <span class="t08 action-undo"></span>
+          <span class="t16 action-undo"></span>
+          <span class="t24 action-undo"></span>
+          <span class="t32 action-undo"></span>
+          <span class="t48 action-undo"></span>
+          <span class="t64 action-undo"></span>
+        </div>
+        <div class="aurora1">
+          <span class="t08 action-undo"></span>
+          <span class="t16 action-undo"></span>
+          <span class="t24 action-undo"></span>
+          <span class="t32 action-undo"></span>
+          <span class="t48 action-undo"></span>
+          <span class="t64 action-undo"></span>
+        </div>
+        <div class="aurora2">
+          <span class="t08 action-undo"></span>
+          <span class="t16 action-undo"></span>
+          <span class="t24 action-undo"></span>
+          <span class="t32 action-undo"></span>
+          <span class="t48 action-undo"></span>
+          <span class="t64 action-undo"></span>
+        </div>
+        <div class="aurora3">
+          <span class="t08 action-undo"></span>
+          <span class="t16 action-undo"></span>
+          <span class="t24 action-undo"></span>
+          <span class="t32 action-undo"></span>
+          <span class="t48 action-undo"></span>
+          <span class="t64 action-undo"></span>
+        </div>
+        <div class="aurora4">
+          <span class="t08 action-undo"></span>
+          <span class="t16 action-undo"></span>
+          <span class="t24 action-undo"></span>
+          <span class="t32 action-undo"></span>
+          <span class="t48 action-undo"></span>
+          <span class="t64 action-undo"></span>
+        </div>
+        <div class="aurora5">
+          <span class="t08 action-undo"></span>
+          <span class="t16 action-undo"></span>
+          <span class="t24 action-undo"></span>
+          <span class="t32 action-undo"></span>
+          <span class="t48 action-undo"></span>
+          <span class="t64 action-undo"></span>
+        </div>
+      </div>
+      <div class="card dark">
+        <div class="white">
+          <span class="t08 action-undo"></span>
+          <span class="t16 action-undo"></span>
+          <span class="t24 action-undo"></span>
+          <span class="t32 action-undo"></span>
+          <span class="t48 action-undo"></span>
+          <span class="t64 action-undo"></span>
+        </div>
+        <div class="aurora1">
+          <span class="t08 action-undo"></span>
+          <span class="t16 action-undo"></span>
+          <span class="t24 action-undo"></span>
+          <span class="t32 action-undo"></span>
+          <span class="t48 action-undo"></span>
+          <span class="t64 action-undo"></span>
+        </div>
+        <div class="aurora2">
+          <span class="t08 action-undo"></span>
+          <span class="t16 action-undo"></span>
+          <span class="t24 action-undo"></span>
+          <span class="t32 action-undo"></span>
+          <span class="t48 action-undo"></span>
+          <span class="t64 action-undo"></span>
+        </div>
+        <div class="aurora3">
+          <span class="t08 action-undo"></span>
+          <span class="t16 action-undo"></span>
+          <span class="t24 action-undo"></span>
+          <span class="t32 action-undo"></span>
+          <span class="t48 action-undo"></span>
+          <span class="t64 action-undo"></span>
+        </div>
+        <div class="aurora4">
+          <span class="t08 action-undo"></span>
+          <span class="t16 action-undo"></span>
+          <span class="t24 action-undo"></span>
+          <span class="t32 action-undo"></span>
+          <span class="t48 action-undo"></span>
+          <span class="t64 action-undo"></span>
+        </div>
+        <div class="aurora5">
+          <span class="t08 action-undo"></span>
+          <span class="t16 action-undo"></span>
+          <span class="t24 action-undo"></span>
+          <span class="t32 action-undo"></span>
+          <span class="t48 action-undo"></span>
+          <span class="t64 action-undo"></span>
+        </div>
+      </div>
+    </div>
+    <div class="conjunto c5">
+      <div class="card light">
+        <div class="black">
+          <span class="t08 align-center"></span>
+          <span class="t16 align-center"></span>
+          <span class="t24 align-center"></span>
+          <span class="t32 align-center"></span>
+          <span class="t48 align-center"></span>
+          <span class="t64 align-center"></span>
+        </div>
+        <div class="aurora1">
+          <span class="t08 align-center"></span>
+          <span class="t16 align-center"></span>
+          <span class="t24 align-center"></span>
+          <span class="t32 align-center"></span>
+          <span class="t48 align-center"></span>
+          <span class="t64 align-center"></span>
+        </div>
+        <div class="aurora2">
+          <span class="t08 align-center"></span>
+          <span class="t16 align-center"></span>
+          <span class="t24 align-center"></span>
+          <span class="t32 align-center"></span>
+          <span class="t48 align-center"></span>
+          <span class="t64 align-center"></span>
+        </div>
+        <div class="aurora3">
+          <span class="t08 align-center"></span>
+          <span class="t16 align-center"></span>
+          <span class="t24 align-center"></span>
+          <span class="t32 align-center"></span>
+          <span class="t48 align-center"></span>
+          <span class="t64 align-center"></span>
+        </div>
+        <div class="aurora4">
+          <span class="t08 align-center"></span>
+          <span class="t16 align-center"></span>
+          <span class="t24 align-center"></span>
+          <span class="t32 align-center"></span>
+          <span class="t48 align-center"></span>
+          <span class="t64 align-center"></span>
+        </div>
+        <div class="aurora5">
+          <span class="t08 align-center"></span>
+          <span class="t16 align-center"></span>
+          <span class="t24 align-center"></span>
+          <span class="t32 align-center"></span>
+          <span class="t48 align-center"></span>
+          <span class="t64 align-center"></span>
+        </div>
+      </div>
+      <div class="card dark">
+        <div class="white">
+          <span class="t08 align-center"></span>
+          <span class="t16 align-center"></span>
+          <span class="t24 align-center"></span>
+          <span class="t32 align-center"></span>
+          <span class="t48 align-center"></span>
+          <span class="t64 align-center"></span>
+        </div>
+        <div class="aurora1">
+          <span class="t08 align-center"></span>
+          <span class="t16 align-center"></span>
+          <span class="t24 align-center"></span>
+          <span class="t32 align-center"></span>
+          <span class="t48 align-center"></span>
+          <span class="t64 align-center"></span>
+        </div>
+        <div class="aurora2">
+          <span class="t08 align-center"></span>
+          <span class="t16 align-center"></span>
+          <span class="t24 align-center"></span>
+          <span class="t32 align-center"></span>
+          <span class="t48 align-center"></span>
+          <span class="t64 align-center"></span>
+        </div>
+        <div class="aurora3">
+          <span class="t08 align-center"></span>
+          <span class="t16 align-center"></span>
+          <span class="t24 align-center"></span>
+          <span class="t32 align-center"></span>
+          <span class="t48 align-center"></span>
+          <span class="t64 align-center"></span>
+        </div>
+        <div class="aurora4">
+          <span class="t08 align-center"></span>
+          <span class="t16 align-center"></span>
+          <span class="t24 align-center"></span>
+          <span class="t32 align-center"></span>
+          <span class="t48 align-center"></span>
+          <span class="t64 align-center"></span>
+        </div>
+        <div class="aurora5">
+          <span class="t08 align-center"></span>
+          <span class="t16 align-center"></span>
+          <span class="t24 align-center"></span>
+          <span class="t32 align-center"></span>
+          <span class="t48 align-center"></span>
+          <span class="t64 align-center"></span>
+        </div>
+      </div>
+    </div>
+    <div class="conjunto c6">
+      <div class="card light">
+        <div class="black">
+          <span class="t08 align-left"></span>
+          <span class="t16 align-left"></span>
+          <span class="t24 align-left"></span>
+          <span class="t32 align-left"></span>
+          <span class="t48 align-left"></span>
+          <span class="t64 align-left"></span>
+        </div>
+        <div class="aurora1">
+          <span class="t08 align-left"></span>
+          <span class="t16 align-left"></span>
+          <span class="t24 align-left"></span>
+          <span class="t32 align-left"></span>
+          <span class="t48 align-left"></span>
+          <span class="t64 align-left"></span>
+        </div>
+        <div class="aurora2">
+          <span class="t08 align-left"></span>
+          <span class="t16 align-left"></span>
+          <span class="t24 align-left"></span>
+          <span class="t32 align-left"></span>
+          <span class="t48 align-left"></span>
+          <span class="t64 align-left"></span>
+        </div>
+        <div class="aurora3">
+          <span class="t08 align-left"></span>
+          <span class="t16 align-left"></span>
+          <span class="t24 align-left"></span>
+          <span class="t32 align-left"></span>
+          <span class="t48 align-left"></span>
+          <span class="t64 align-left"></span>
+        </div>
+        <div class="aurora4">
+          <span class="t08 align-left"></span>
+          <span class="t16 align-left"></span>
+          <span class="t24 align-left"></span>
+          <span class="t32 align-left"></span>
+          <span class="t48 align-left"></span>
+          <span class="t64 align-left"></span>
+        </div>
+        <div class="aurora5">
+          <span class="t08 align-left"></span>
+          <span class="t16 align-left"></span>
+          <span class="t24 align-left"></span>
+          <span class="t32 align-left"></span>
+          <span class="t48 align-left"></span>
+          <span class="t64 align-left"></span>
+        </div>
+      </div>
+      <div class="card dark">
+        <div class="white">
+          <span class="t08 align-left"></span>
+          <span class="t16 align-left"></span>
+          <span class="t24 align-left"></span>
+          <span class="t32 align-left"></span>
+          <span class="t48 align-left"></span>
+          <span class="t64 align-left"></span>
+        </div>
+        <div class="aurora1">
+          <span class="t08 align-left"></span>
+          <span class="t16 align-left"></span>
+          <span class="t24 align-left"></span>
+          <span class="t32 align-left"></span>
+          <span class="t48 align-left"></span>
+          <span class="t64 align-left"></span>
+        </div>
+        <div class="aurora2">
+          <span class="t08 align-left"></span>
+          <span class="t16 align-left"></span>
+          <span class="t24 align-left"></span>
+          <span class="t32 align-left"></span>
+          <span class="t48 align-left"></span>
+          <span class="t64 align-left"></span>
+        </div>
+        <div class="aurora3">
+          <span class="t08 align-left"></span>
+          <span class="t16 align-left"></span>
+          <span class="t24 align-left"></span>
+          <span class="t32 align-left"></span>
+          <span class="t48 align-left"></span>
+          <span class="t64 align-left"></span>
+        </div>
+        <div class="aurora4">
+          <span class="t08 align-left"></span>
+          <span class="t16 align-left"></span>
+          <span class="t24 align-left"></span>
+          <span class="t32 align-left"></span>
+          <span class="t48 align-left"></span>
+          <span class="t64 align-left"></span>
+        </div>
+        <div class="aurora5">
+          <span class="t08 align-left"></span>
+          <span class="t16 align-left"></span>
+          <span class="t24 align-left"></span>
+          <span class="t32 align-left"></span>
+          <span class="t48 align-left"></span>
+          <span class="t64 align-left"></span>
+        </div>
+      </div>
+    </div>
+    <div class="conjunto c7">
+      <div class="card light">
+        <div class="black">
+          <span class="t08 align-right"></span>
+          <span class="t16 align-right"></span>
+          <span class="t24 align-right"></span>
+          <span class="t32 align-right"></span>
+          <span class="t48 align-right"></span>
+          <span class="t64 align-right"></span>
+        </div>
+        <div class="aurora1">
+          <span class="t08 align-right"></span>
+          <span class="t16 align-right"></span>
+          <span class="t24 align-right"></span>
+          <span class="t32 align-right"></span>
+          <span class="t48 align-right"></span>
+          <span class="t64 align-right"></span>
+        </div>
+        <div class="aurora2">
+          <span class="t08 align-right"></span>
+          <span class="t16 align-right"></span>
+          <span class="t24 align-right"></span>
+          <span class="t32 align-right"></span>
+          <span class="t48 align-right"></span>
+          <span class="t64 align-right"></span>
+        </div>
+        <div class="aurora3">
+          <span class="t08 align-right"></span>
+          <span class="t16 align-right"></span>
+          <span class="t24 align-right"></span>
+          <span class="t32 align-right"></span>
+          <span class="t48 align-right"></span>
+          <span class="t64 align-right"></span>
+        </div>
+        <div class="aurora4">
+          <span class="t08 align-right"></span>
+          <span class="t16 align-right"></span>
+          <span class="t24 align-right"></span>
+          <span class="t32 align-right"></span>
+          <span class="t48 align-right"></span>
+          <span class="t64 align-right"></span>
+        </div>
+        <div class="aurora5">
+          <span class="t08 align-right"></span>
+          <span class="t16 align-right"></span>
+          <span class="t24 align-right"></span>
+          <span class="t32 align-right"></span>
+          <span class="t48 align-right"></span>
+          <span class="t64 align-right"></span>
+        </div>
+      </div>
+      <div class="card dark">
+        <div class="white">
+          <span class="t08 align-right"></span>
+          <span class="t16 align-right"></span>
+          <span class="t24 align-right"></span>
+          <span class="t32 align-right"></span>
+          <span class="t48 align-right"></span>
+          <span class="t64 align-right"></span>
+        </div>
+        <div class="aurora1">
+          <span class="t08 align-right"></span>
+          <span class="t16 align-right"></span>
+          <span class="t24 align-right"></span>
+          <span class="t32 align-right"></span>
+          <span class="t48 align-right"></span>
+          <span class="t64 align-right"></span>
+        </div>
+        <div class="aurora2">
+          <span class="t08 align-right"></span>
+          <span class="t16 align-right"></span>
+          <span class="t24 align-right"></span>
+          <span class="t32 align-right"></span>
+          <span class="t48 align-right"></span>
+          <span class="t64 align-right"></span>
+        </div>
+        <div class="aurora3">
+          <span class="t08 align-right"></span>
+          <span class="t16 align-right"></span>
+          <span class="t24 align-right"></span>
+          <span class="t32 align-right"></span>
+          <span class="t48 align-right"></span>
+          <span class="t64 align-right"></span>
+        </div>
+        <div class="aurora4">
+          <span class="t08 align-right"></span>
+          <span class="t16 align-right"></span>
+          <span class="t24 align-right"></span>
+          <span class="t32 align-right"></span>
+          <span class="t48 align-right"></span>
+          <span class="t64 align-right"></span>
+        </div>
+        <div class="aurora5">
+          <span class="t08 align-right"></span>
+          <span class="t16 align-right"></span>
+          <span class="t24 align-right"></span>
+          <span class="t32 align-right"></span>
+          <span class="t48 align-right"></span>
+          <span class="t64 align-right"></span>
+        </div>
+      </div>
+    </div>
+    <div class="conjunto c8">
+      <div class="card light">
+        <div class="black">
+          <span class="t08 aperture"></span>
+          <span class="t16 aperture"></span>
+          <span class="t24 aperture"></span>
+          <span class="t32 aperture"></span>
+          <span class="t48 aperture"></span>
+          <span class="t64 aperture"></span>
+        </div>
+        <div class="aurora1">
+          <span class="t08 aperture"></span>
+          <span class="t16 aperture"></span>
+          <span class="t24 aperture"></span>
+          <span class="t32 aperture"></span>
+          <span class="t48 aperture"></span>
+          <span class="t64 aperture"></span>
+        </div>
+        <div class="aurora2">
+          <span class="t08 aperture"></span>
+          <span class="t16 aperture"></span>
+          <span class="t24 aperture"></span>
+          <span class="t32 aperture"></span>
+          <span class="t48 aperture"></span>
+          <span class="t64 aperture"></span>
+        </div>
+        <div class="aurora3">
+          <span class="t08 aperture"></span>
+          <span class="t16 aperture"></span>
+          <span class="t24 aperture"></span>
+          <span class="t32 aperture"></span>
+          <span class="t48 aperture"></span>
+          <span class="t64 aperture"></span>
+        </div>
+        <div class="aurora4">
+          <span class="t08 aperture"></span>
+          <span class="t16 aperture"></span>
+          <span class="t24 aperture"></span>
+          <span class="t32 aperture"></span>
+          <span class="t48 aperture"></span>
+          <span class="t64 aperture"></span>
+        </div>
+        <div class="aurora5">
+          <span class="t08 aperture"></span>
+          <span class="t16 aperture"></span>
+          <span class="t24 aperture"></span>
+          <span class="t32 aperture"></span>
+          <span class="t48 aperture"></span>
+          <span class="t64 aperture"></span>
+        </div>
+      </div>
+      <div class="card dark">
+        <div class="white">
+          <span class="t08 aperture"></span>
+          <span class="t16 aperture"></span>
+          <span class="t24 aperture"></span>
+          <span class="t32 aperture"></span>
+          <span class="t48 aperture"></span>
+          <span class="t64 aperture"></span>
+        </div>
+        <div class="aurora1">
+          <span class="t08 aperture"></span>
+          <span class="t16 aperture"></span>
+          <span class="t24 aperture"></span>
+          <span class="t32 aperture"></span>
+          <span class="t48 aperture"></span>
+          <span class="t64 aperture"></span>
+        </div>
+        <div class="aurora2">
+          <span class="t08 aperture"></span>
+          <span class="t16 aperture"></span>
+          <span class="t24 aperture"></span>
+          <span class="t32 aperture"></span>
+          <span class="t48 aperture"></span>
+          <span class="t64 aperture"></span>
+        </div>
+        <div class="aurora3">
+          <span class="t08 aperture"></span>
+          <span class="t16 aperture"></span>
+          <span class="t24 aperture"></span>
+          <span class="t32 aperture"></span>
+          <span class="t48 aperture"></span>
+          <span class="t64 aperture"></span>
+        </div>
+        <div class="aurora4">
+          <span class="t08 aperture"></span>
+          <span class="t16 aperture"></span>
+          <span class="t24 aperture"></span>
+          <span class="t32 aperture"></span>
+          <span class="t48 aperture"></span>
+          <span class="t64 aperture"></span>
+        </div>
+        <div class="aurora5">
+          <span class="t08 aperture"></span>
+          <span class="t16 aperture"></span>
+          <span class="t24 aperture"></span>
+          <span class="t32 aperture"></span>
+          <span class="t48 aperture"></span>
+          <span class="t64 aperture"></span>
+        </div>
+      </div>
+    </div>
+    <div class="conjunto c9">
+      <div class="card light">
+        <div class="black">
+          <span class="t08 arrow-bottom"></span>
+          <span class="t16 arrow-bottom"></span>
+          <span class="t24 arrow-bottom"></span>
+          <span class="t32 arrow-bottom"></span>
+          <span class="t48 arrow-bottom"></span>
+          <span class="t64 arrow-bottom"></span>
+        </div>
+        <div class="aurora1">
+          <span class="t08 arrow-bottom"></span>
+          <span class="t16 arrow-bottom"></span>
+          <span class="t24 arrow-bottom"></span>
+          <span class="t32 arrow-bottom"></span>
+          <span class="t48 arrow-bottom"></span>
+          <span class="t64 arrow-bottom"></span>
+        </div>
+        <div class="aurora2">
+          <span class="t08 arrow-bottom"></span>
+          <span class="t16 arrow-bottom"></span>
+          <span class="t24 arrow-bottom"></span>
+          <span class="t32 arrow-bottom"></span>
+          <span class="t48 arrow-bottom"></span>
+          <span class="t64 arrow-bottom"></span>
+        </div>
+        <div class="aurora3">
+          <span class="t08 arrow-bottom"></span>
+          <span class="t16 arrow-bottom"></span>
+          <span class="t24 arrow-bottom"></span>
+          <span class="t32 arrow-bottom"></span>
+          <span class="t48 arrow-bottom"></span>
+          <span class="t64 arrow-bottom"></span>
+        </div>
+        <div class="aurora4">
+          <span class="t08 arrow-bottom"></span>
+          <span class="t16 arrow-bottom"></span>
+          <span class="t24 arrow-bottom"></span>
+          <span class="t32 arrow-bottom"></span>
+          <span class="t48 arrow-bottom"></span>
+          <span class="t64 arrow-bottom"></span>
+        </div>
+        <div class="aurora5">
+          <span class="t08 arrow-bottom"></span>
+          <span class="t16 arrow-bottom"></span>
+          <span class="t24 arrow-bottom"></span>
+          <span class="t32 arrow-bottom"></span>
+          <span class="t48 arrow-bottom"></span>
+          <span class="t64 arrow-bottom"></span>
+        </div>
+      </div>
+      <div class="card dark">
+        <div class="white">
+          <span class="t08 arrow-bottom"></span>
+          <span class="t16 arrow-bottom"></span>
+          <span class="t24 arrow-bottom"></span>
+          <span class="t32 arrow-bottom"></span>
+          <span class="t48 arrow-bottom"></span>
+          <span class="t64 arrow-bottom"></span>
+        </div>
+        <div class="aurora1">
+          <span class="t08 arrow-bottom"></span>
+          <span class="t16 arrow-bottom"></span>
+          <span class="t24 arrow-bottom"></span>
+          <span class="t32 arrow-bottom"></span>
+          <span class="t48 arrow-bottom"></span>
+          <span class="t64 arrow-bottom"></span>
+        </div>
+        <div class="aurora2">
+          <span class="t08 arrow-bottom"></span>
+          <span class="t16 arrow-bottom"></span>
+          <span class="t24 arrow-bottom"></span>
+          <span class="t32 arrow-bottom"></span>
+          <span class="t48 arrow-bottom"></span>
+          <span class="t64 arrow-bottom"></span>
+        </div>
+        <div class="aurora3">
+          <span class="t08 arrow-bottom"></span>
+          <span class="t16 arrow-bottom"></span>
+          <span class="t24 arrow-bottom"></span>
+          <span class="t32 arrow-bottom"></span>
+          <span class="t48 arrow-bottom"></span>
+          <span class="t64 arrow-bottom"></span>
+        </div>
+        <div class="aurora4">
+          <span class="t08 arrow-bottom"></span>
+          <span class="t16 arrow-bottom"></span>
+          <span class="t24 arrow-bottom"></span>
+          <span class="t32 arrow-bottom"></span>
+          <span class="t48 arrow-bottom"></span>
+          <span class="t64 arrow-bottom"></span>
+        </div>
+        <div class="aurora5">
+          <span class="t08 arrow-bottom"></span>
+          <span class="t16 arrow-bottom"></span>
+          <span class="t24 arrow-bottom"></span>
+          <span class="t32 arrow-bottom"></span>
+          <span class="t48 arrow-bottom"></span>
+          <span class="t64 arrow-bottom"></span>
+        </div>
+      </div>
+    </div>
+    <div class="conjunto c10">
+      <div class="card light">
+        <div class="black">
+          <span class="t08 arrow-circle-bottom"></span>
+          <span class="t16 arrow-circle-bottom"></span>
+          <span class="t24 arrow-circle-bottom"></span>
+          <span class="t32 arrow-circle-bottom"></span>
+          <span class="t48 arrow-circle-bottom"></span>
+          <span class="t64 arrow-circle-bottom"></span>
+        </div>
+        <div class="aurora1">
+          <span class="t08 arrow-circle-bottom"></span>
+          <span class="t16 arrow-circle-bottom"></span>
+          <span class="t24 arrow-circle-bottom"></span>
+          <span class="t32 arrow-circle-bottom"></span>
+          <span class="t48 arrow-circle-bottom"></span>
+          <span class="t64 arrow-circle-bottom"></span>
+        </div>
+        <div class="aurora2">
+          <span class="t08 arrow-circle-bottom"></span>
+          <span class="t16 arrow-circle-bottom"></span>
+          <span class="t24 arrow-circle-bottom"></span>
+          <span class="t32 arrow-circle-bottom"></span>
+          <span class="t48 arrow-circle-bottom"></span>
+          <span class="t64 arrow-circle-bottom"></span>
+        </div>
+        <div class="aurora3">
+          <span class="t08 arrow-circle-bottom"></span>
+          <span class="t16 arrow-circle-bottom"></span>
+          <span class="t24 arrow-circle-bottom"></span>
+          <span class="t32 arrow-circle-bottom"></span>
+          <span class="t48 arrow-circle-bottom"></span>
+          <span class="t64 arrow-circle-bottom"></span>
+        </div>
+        <div class="aurora4">
+          <span class="t08 arrow-circle-bottom"></span>
+          <span class="t16 arrow-circle-bottom"></span>
+          <span class="t24 arrow-circle-bottom"></span>
+          <span class="t32 arrow-circle-bottom"></span>
+          <span class="t48 arrow-circle-bottom"></span>
+          <span class="t64 arrow-circle-bottom"></span>
+        </div>
+        <div class="aurora5">
+          <span class="t08 arrow-circle-bottom"></span>
+          <span class="t16 arrow-circle-bottom"></span>
+          <span class="t24 arrow-circle-bottom"></span>
+          <span class="t32 arrow-circle-bottom"></span>
+          <span class="t48 arrow-circle-bottom"></span>
+          <span class="t64 arrow-circle-bottom"></span>
+        </div>
+      </div>
+      <div class="card dark">
+        <div class="white">
+          <span class="t08 arrow-circle-bottom"></span>
+          <span class="t16 arrow-circle-bottom"></span>
+          <span class="t24 arrow-circle-bottom"></span>
+          <span class="t32 arrow-circle-bottom"></span>
+          <span class="t48 arrow-circle-bottom"></span>
+          <span class="t64 arrow-circle-bottom"></span>
+        </div>
+        <div class="aurora1">
+          <span class="t08 arrow-circle-bottom"></span>
+          <span class="t16 arrow-circle-bottom"></span>
+          <span class="t24 arrow-circle-bottom"></span>
+          <span class="t32 arrow-circle-bottom"></span>
+          <span class="t48 arrow-circle-bottom"></span>
+          <span class="t64 arrow-circle-bottom"></span>
+        </div>
+        <div class="aurora2">
+          <span class="t08 arrow-circle-bottom"></span>
+          <span class="t16 arrow-circle-bottom"></span>
+          <span class="t24 arrow-circle-bottom"></span>
+          <span class="t32 arrow-circle-bottom"></span>
+          <span class="t48 arrow-circle-bottom"></span>
+          <span class="t64 arrow-circle-bottom"></span>
+        </div>
+        <div class="aurora3">
+          <span class="t08 arrow-circle-bottom"></span>
+          <span class="t16 arrow-circle-bottom"></span>
+          <span class="t24 arrow-circle-bottom"></span>
+          <span class="t32 arrow-circle-bottom"></span>
+          <span class="t48 arrow-circle-bottom"></span>
+          <span class="t64 arrow-circle-bottom"></span>
+        </div>
+        <div class="aurora4">
+          <span class="t08 arrow-circle-bottom"></span>
+          <span class="t16 arrow-circle-bottom"></span>
+          <span class="t24 arrow-circle-bottom"></span>
+          <span class="t32 arrow-circle-bottom"></span>
+          <span class="t48 arrow-circle-bottom"></span>
+          <span class="t64 arrow-circle-bottom"></span>
+        </div>
+        <div class="aurora5">
+          <span class="t08 arrow-circle-bottom"></span>
+          <span class="t16 arrow-circle-bottom"></span>
+          <span class="t24 arrow-circle-bottom"></span>
+          <span class="t32 arrow-circle-bottom"></span>
+          <span class="t48 arrow-circle-bottom"></span>
+          <span class="t64 arrow-circle-bottom"></span>
+        </div>
+      </div>
+    </div>
+    <div class="conjunto c11">
+      <div class="card light">
+        <div class="black">
+          <span class="t08 arrow-circle-left"></span>
+          <span class="t16 arrow-circle-left"></span>
+          <span class="t24 arrow-circle-left"></span>
+          <span class="t32 arrow-circle-left"></span>
+          <span class="t48 arrow-circle-left"></span>
+          <span class="t64 arrow-circle-left"></span>
+        </div>
+        <div class="aurora1">
+          <span class="t08 arrow-circle-left"></span>
+          <span class="t16 arrow-circle-left"></span>
+          <span class="t24 arrow-circle-left"></span>
+          <span class="t32 arrow-circle-left"></span>
+          <span class="t48 arrow-circle-left"></span>
+          <span class="t64 arrow-circle-left"></span>
+        </div>
+        <div class="aurora2">
+          <span class="t08 arrow-circle-left"></span>
+          <span class="t16 arrow-circle-left"></span>
+          <span class="t24 arrow-circle-left"></span>
+          <span class="t32 arrow-circle-left"></span>
+          <span class="t48 arrow-circle-left"></span>
+          <span class="t64 arrow-circle-left"></span>
+        </div>
+        <div class="aurora3">
+          <span class="t08 arrow-circle-left"></span>
+          <span class="t16 arrow-circle-left"></span>
+          <span class="t24 arrow-circle-left"></span>
+          <span class="t32 arrow-circle-left"></span>
+          <span class="t48 arrow-circle-left"></span>
+          <span class="t64 arrow-circle-left"></span>
+        </div>
+        <div class="aurora4">
+          <span class="t08 arrow-circle-left"></span>
+          <span class="t16 arrow-circle-left"></span>
+          <span class="t24 arrow-circle-left"></span>
+          <span class="t32 arrow-circle-left"></span>
+          <span class="t48 arrow-circle-left"></span>
+          <span class="t64 arrow-circle-left"></span>
+        </div>
+        <div class="aurora5">
+          <span class="t08 arrow-circle-left"></span>
+          <span class="t16 arrow-circle-left"></span>
+          <span class="t24 arrow-circle-left"></span>
+          <span class="t32 arrow-circle-left"></span>
+          <span class="t48 arrow-circle-left"></span>
+          <span class="t64 arrow-circle-left"></span>
+        </div>
+      </div>
+      <div class="card dark">
+        <div class="white">
+          <span class="t08 arrow-circle-left"></span>
+          <span class="t16 arrow-circle-left"></span>
+          <span class="t24 arrow-circle-left"></span>
+          <span class="t32 arrow-circle-left"></span>
+          <span class="t48 arrow-circle-left"></span>
+          <span class="t64 arrow-circle-left"></span>
+        </div>
+        <div class="aurora1">
+          <span class="t08 arrow-circle-left"></span>
+          <span class="t16 arrow-circle-left"></span>
+          <span class="t24 arrow-circle-left"></span>
+          <span class="t32 arrow-circle-left"></span>
+          <span class="t48 arrow-circle-left"></span>
+          <span class="t64 arrow-circle-left"></span>
+        </div>
+        <div class="aurora2">
+          <span class="t08 arrow-circle-left"></span>
+          <span class="t16 arrow-circle-left"></span>
+          <span class="t24 arrow-circle-left"></span>
+          <span class="t32 arrow-circle-left"></span>
+          <span class="t48 arrow-circle-left"></span>
+          <span class="t64 arrow-circle-left"></span>
+        </div>
+        <div class="aurora3">
+          <span class="t08 arrow-circle-left"></span>
+          <span class="t16 arrow-circle-left"></span>
+          <span class="t24 arrow-circle-left"></span>
+          <span class="t32 arrow-circle-left"></span>
+          <span class="t48 arrow-circle-left"></span>
+          <span class="t64 arrow-circle-left"></span>
+        </div>
+        <div class="aurora4">
+          <span class="t08 arrow-circle-left"></span>
+          <span class="t16 arrow-circle-left"></span>
+          <span class="t24 arrow-circle-left"></span>
+          <span class="t32 arrow-circle-left"></span>
+          <span class="t48 arrow-circle-left"></span>
+          <span class="t64 arrow-circle-left"></span>
+        </div>
+        <div class="aurora5">
+          <span class="t08 arrow-circle-left"></span>
+          <span class="t16 arrow-circle-left"></span>
+          <span class="t24 arrow-circle-left"></span>
+          <span class="t32 arrow-circle-left"></span>
+          <span class="t48 arrow-circle-left"></span>
+          <span class="t64 arrow-circle-left"></span>
+        </div>
+      </div>
+    </div>
+    <div class="conjunto c12">
+      <div class="card light">
+        <div class="black">
+          <span class="t08 arrow-circle-right"></span>
+          <span class="t16 arrow-circle-right"></span>
+          <span class="t24 arrow-circle-right"></span>
+          <span class="t32 arrow-circle-right"></span>
+          <span class="t48 arrow-circle-right"></span>
+          <span class="t64 arrow-circle-right"></span>
+        </div>
+        <div class="aurora1">
+          <span class="t08 arrow-circle-right"></span>
+          <span class="t16 arrow-circle-right"></span>
+          <span class="t24 arrow-circle-right"></span>
+          <span class="t32 arrow-circle-right"></span>
+          <span class="t48 arrow-circle-right"></span>
+          <span class="t64 arrow-circle-right"></span>
+        </div>
+        <div class="aurora2">
+          <span class="t08 arrow-circle-right"></span>
+          <span class="t16 arrow-circle-right"></span>
+          <span class="t24 arrow-circle-right"></span>
+          <span class="t32 arrow-circle-right"></span>
+          <span class="t48 arrow-circle-right"></span>
+          <span class="t64 arrow-circle-right"></span>
+        </div>
+        <div class="aurora3">
+          <span class="t08 arrow-circle-right"></span>
+          <span class="t16 arrow-circle-right"></span>
+          <span class="t24 arrow-circle-right"></span>
+          <span class="t32 arrow-circle-right"></span>
+          <span class="t48 arrow-circle-right"></span>
+          <span class="t64 arrow-circle-right"></span>
+        </div>
+        <div class="aurora4">
+          <span class="t08 arrow-circle-right"></span>
+          <span class="t16 arrow-circle-right"></span>
+          <span class="t24 arrow-circle-right"></span>
+          <span class="t32 arrow-circle-right"></span>
+          <span class="t48 arrow-circle-right"></span>
+          <span class="t64 arrow-circle-right"></span>
+        </div>
+        <div class="aurora5">
+          <span class="t08 arrow-circle-right"></span>
+          <span class="t16 arrow-circle-right"></span>
+          <span class="t24 arrow-circle-right"></span>
+          <span class="t32 arrow-circle-right"></span>
+          <span class="t48 arrow-circle-right"></span>
+          <span class="t64 arrow-circle-right"></span>
+        </div>
+      </div>
+      <div class="card dark">
+        <div class="white">
+          <span class="t08 arrow-circle-right"></span>
+          <span class="t16 arrow-circle-right"></span>
+          <span class="t24 arrow-circle-right"></span>
+          <span class="t32 arrow-circle-right"></span>
+          <span class="t48 arrow-circle-right"></span>
+          <span class="t64 arrow-circle-right"></span>
+        </div>
+        <div class="aurora1">
+          <span class="t08 arrow-circle-right"></span>
+          <span class="t16 arrow-circle-right"></span>
+          <span class="t24 arrow-circle-right"></span>
+          <span class="t32 arrow-circle-right"></span>
+          <span class="t48 arrow-circle-right"></span>
+          <span class="t64 arrow-circle-right"></span>
+        </div>
+        <div class="aurora2">
+          <span class="t08 arrow-circle-right"></span>
+          <span class="t16 arrow-circle-right"></span>
+          <span class="t24 arrow-circle-right"></span>
+          <span class="t32 arrow-circle-right"></span>
+          <span class="t48 arrow-circle-right"></span>
+          <span class="t64 arrow-circle-right"></span>
+        </div>
+        <div class="aurora3">
+          <span class="t08 arrow-circle-right"></span>
+          <span class="t16 arrow-circle-right"></span>
+          <span class="t24 arrow-circle-right"></span>
+          <span class="t32 arrow-circle-right"></span>
+          <span class="t48 arrow-circle-right"></span>
+          <span class="t64 arrow-circle-right"></span>
+        </div>
+        <div class="aurora4">
+          <span class="t08 arrow-circle-right"></span>
+          <span class="t16 arrow-circle-right"></span>
+          <span class="t24 arrow-circle-right"></span>
+          <span class="t32 arrow-circle-right"></span>
+          <span class="t48 arrow-circle-right"></span>
+          <span class="t64 arrow-circle-right"></span>
+        </div>
+        <div class="aurora5">
+          <span class="t08 arrow-circle-right"></span>
+          <span class="t16 arrow-circle-right"></span>
+          <span class="t24 arrow-circle-right"></span>
+          <span class="t32 arrow-circle-right"></span>
+          <span class="t48 arrow-circle-right"></span>
+          <span class="t64 arrow-circle-right"></span>
+        </div>
+      </div>
+    </div>
+    <div class="overlay"></div>
+    <script>
+      $("#show-modal1").on("click", function () {
+        $(".overlay, .c1").show();
+      });
+      $(".overlay").on("click", function () {
+        $(".overlay, .c1").hide();
+      });
+      $("#show-modal2").on("click", function () {
+        $(".overlay, .c2").show();
+      });
+      $(".overlay").on("click", function () {
+        $(".overlay, .c2").hide();
+      });
+      $("#show-modal3").on("click", function () {
+        $(".overlay, .c3").show();
+      });
+      $(".overlay").on("click", function () {
+        $(".overlay, .c3").hide();
+      });
+      $("#show-modal4").on("click", function () {
+        $(".overlay, .c4").show();
+      });
+      $(".overlay").on("click", function () {
+        $(".overlay, .c4").hide();
+      });
+      $("#show-modal5").on("click", function () {
+        $(".overlay, .c5").show();
+      });
+      $(".overlay").on("click", function () {
+        $(".overlay, .c5").hide();
+      });
+      $("#show-modal6").on("click", function () {
+        $(".overlay, .c6").show();
+      });
+      $(".overlay").on("click", function () {
+        $(".overlay, .c6").hide();
+      });
+      $("#show-modal7").on("click", function () {
+        $(".overlay, .c7").show();
+      });
+      $(".overlay").on("click", function () {
+        $(".overlay, .c7").hide();
+      });
+      $("#show-modal8").on("click", function () {
+        $(".overlay, .c8").show();
+      });
+      $(".overlay").on("click", function () {
+        $(".overlay, .c8").hide();
+      });
+      $("#show-modal9").on("click", function () {
+        $(".overlay, .c9").show();
+      });
+      $(".overlay").on("click", function () {
+        $(".overlay, .c9").hide();
+      });
+      $("#show-modal10").on("click", function () {
+        $(".overlay, .c10").show();
+      });
+      $(".overlay").on("click", function () {
+        $(".overlay, .c10").hide();
+      });
+      $("#show-modal11").on("click", function () {
+        $(".overlay, .c11").show();
+      });
+      $(".overlay").on("click", function () {
+        $(".overlay, .c11").hide();
+      });
+      $("#show-modal12").on("click", function () {
+        $(".overlay, .c12").show();
+      });
+      $(".overlay").on("click", function () {
+        $(".overlay, .c12").hide();
+      });
+    </script>
+  </body>
+</html>
