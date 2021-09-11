@@ -1,3 +1,5 @@
+<!-- @format -->
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -9,8 +11,8 @@
   </head>
   <body>
     <section>
-      <div class="code">
-        <div class="box">
+      <div class="code-el">
+        <div class="box-el">
           <p><span class="frost3">&lt;style&gt;</span></p>
           <p><span class="frost3">&emsp;@font-face</span> {</p>
           <p>
@@ -71,57 +73,12 @@
           <p><span class="frost3">&lt;/style&gt;</span></p>
         </div>
       </div>
-      <article class="cf">
-        <ul>
-          <li class="icon account-login" onclick="icone1(); displayCard()">
-            account-login e000
-          </li>
-          <li onclick="icone2(); displayCard()" class="icon account-logout">
-            account-logout e001
-          </li>
-          <li onclick="icone3(); displayCard()" class="icon action-redo">
-            action-redo e002
-          </li>
-          <li onclick="icone4(); displayCard()" class="icon action-undo">
-            action-undo e003
-          </li>
-          <li onclick="icone5(); displayCard()" class="icon align-center">
-            align-center e004
-          </li>
-          <li onclick="icone6(); displayCard()" class="icon align-left">
-            align-left <br />
-            e005
-          </li>
-          <li onclick="icone7(); displayCard()" class="icon align-right">
-            align-right e006
-          </li>
-          <li onclick="icone8(); displayCard()" class="icon aperture">
-            aperture <br />
-            e007
-          </li>
-          <li onclick="icone9(); displayCard()" class="icon arrow-bottom">
-            arrow-bottom e008
-          </li>
-          <li
-            onclick="icone10(); displayCard()"
-            class="icon arrow-circle-bottom"
-          >
-            arrow-circle-bottom e009
-          </li>
-          <li onclick="icone11(); displayCard()" class="icon arrow-circle-left">
-            arrow-circle-left e00a
-          </li>
-          <li
-            onclick="icone12(); displayCard()"
-            class="icon arrow-circle-right"
-          >
-            arrow-circle-right e00b
-          </li>
-        </ul>
+      <article class="cf-el">
+        <ul id="menu-el"></ul>
       </article>
     </section>
-    <div id="conjunto-el" class="conjunto hiden">
-      <div class="card light">
+    <div id="conjunto-el" class="conjunto-el hiden-el">
+      <div class="card-el light">
         <div class="black">
           <span id="icone" class="t08"></span>
           <span id="icone" class="t16"></span>
@@ -171,7 +128,7 @@
           <span id="icone" class="t64"></span>
         </div>
       </div>
-      <div class="card dark">
+      <div class="card-el dark">
         <div class="white">
           <span id="icone" class="t08"></span>
           <span id="icone" class="t16"></span>
@@ -222,7 +179,7 @@
         </div>
       </div>
     </div>
-    <div class="overlay hiden" onclick="hide()"></div>
+    <div class="overlay-el hiden-el" onclick="hide()"></div>
     <script src="index.js"></script>
   </body>
 </html>

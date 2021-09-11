@@ -1,3 +1,5 @@
+/** @format */
+
 body {
   background-color: #4c566a;
 }
@@ -8,9 +10,9 @@ article {
   border-radius: 5px;
   border: 1px solid rgba(0, 0, 0, 0.5);
 }
-ul {
+#menu-el {
   list-style: none;
-  font-size: 1.5em;
+  font-size: 1em;
 }
 li {
   width: 210px;
@@ -26,7 +28,7 @@ li {
   font-weight: normal;
   font-style: normal;
 }
-.icon::before {
+.icon-el::before {
   font-family: openiconic;
   font-size: 48px;
   float: left;
@@ -72,7 +74,7 @@ li:hover {
 .arrow-circle-right::before {
   content: "\e00b";
 }
-.card {
+.card-el {
   font-family: openiconic;
   width: 220px;
   border-radius: 5px;
@@ -88,7 +90,7 @@ li:hover {
   border: 1px solid rgba(255, 255, 255, 0.3);
   float: right;
 }
-.conjunto {
+.conjunto-el {
   width: 490px;
   position: fixed;
   top: 50%;
@@ -136,7 +138,7 @@ li:hover {
 .aurora5 {
   color: #b48ead;
 }
-.overlay {
+.overlay-el {
   position: fixed;
   top: 0;
   left: 0;
@@ -144,15 +146,15 @@ li:hover {
   width: 100%;
   height: 100%;
 }
-.cf::before,
-.cf::after {
+.cf-el::before,
+.cf-el::after {
   content: "";
   display: table;
 }
-.cf::after {
+.cf-el::after {
   clear: both;
 }
-.code {
+.code-el {
   background-color: #3b4252;
   color: white;
   width: 700px;
@@ -175,10 +177,10 @@ li:hover {
 .frost4 {
   color: #5e81ac;
 }
-.box {
+.box-el {
   width: 345px;
   margin-left: 150px;
 }
-.hiden {
+.hiden-el {
   display: none;
 }
