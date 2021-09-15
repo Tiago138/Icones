@@ -1,9 +1,11 @@
 /** @format */
 
 const menuEl = document.getElementById("menu-el");
-let menuItem = [];
-let menuHexa = [];
+const style = document.getElementsByTagName("style")[0];
+const character = String.fromCharCode(92);
+
 let clas = "";
+let functions = {};
 
 fetch("./icones.json")
   .then(function (resp) {
@@ -11,77 +13,61 @@ fetch("./icones.json")
   })
   .then(function (data) {
     renderMenu(data);
+    creatfunctions(data);
+    RenderIcone(data);
   });
 
 function renderMenu(data) {
   let menu = "";
-  for (i = 0; i < data.length; i++) {
-    menu += `<li class="icon-el ${data[i].col1}" onclick="icone${i}(); displayCard()">
+  for (let i = 0; i < data.length; i++) {
+    menu += `<li class="icon-el ${data[i].col1}" onclick="functions.icone${i}(); displayCard()">
       ${data[i].col1} <br> ${data[i].col2}
     </li>`;
   }
   menuEl.innerHTML = menu;
 }
 
+function RenderIcone(data) {
+  iconeDOM = "";
+  for (let i = 0; i < data.length; i++) {
+    iconeDOM += `.${data[i].col1}::before {
+      content: "${character}${data[i].col2}";
+    }`;
+  }
+  style.innerHTML += iconeDOM;
+}
+
 function displayCard() {
-  var divs = document.querySelectorAll("#icone");
-  for (var i = 0; i < divs.length; i++) {
+  let divs = document.querySelectorAll("#icone");
+  for (let i = 0; i < divs.length; i++) {
     divs[i].classList.add(clas);
   }
   unhide();
 }
 
 function unhide() {
-  var divs = document.querySelectorAll(".hiden-el");
-  for (var i = 0; i < divs.length; i++) {
+  let divs = document.querySelectorAll(".hiden-el");
+  for (let i = 0; i < divs.length; i++) {
     divs[i].classList.remove("hiden-el");
   }
 }
 
 function hide() {
-  var divs = document.querySelector(".overlay-el");
-  divs.classList.add("hiden-el");
-  var divs2 = document.querySelector("#conjunto-el");
-  divs2.classList.add("hiden-el");
-  var divs = document.querySelectorAll("#icone");
-  for (var i = 0; i < divs.length; i++) {
-    divs[i].classList.remove(clas);
+  const overlayEl = document.getElementById("overlay-el");
+  overlayEl.classList.add("hiden-el");
+  const conjuntoEl = document.getElementById("conjunto-el");
+  conjuntoEl.classList.add("hiden-el");
+  const iconeEl = document.querySelectorAll("#icone");
+  for (let i = 0; i < iconeEl.length; i++) {
+    iconeEl[i].classList.remove(clas);
   }
 }
 
-function icone0() {
-  clas = "account-login";
-}
-function icone1() {
-  clas = "account-logout";
-}
-function icone2() {
-  clas = "action-redo";
-}
-function icone3() {
-  clas = "action-undo";
-}
-function icone4() {
-  clas = "align-center";
-}
-function icone5() {
-  clas = "align-left";
-}
-function icone6() {
-  clas = "align-right";
-}
-function icone7() {
-  clas = "aperture";
-}
-function icone8() {
-  clas = "arrow-bottom";
-}
-function icone9() {
-  clas = "arrow-circle-bottom";
-}
-function icone10() {
-  clas = "arrow-circle-left";
-}
-function icone11() {
-  clas = "arrow-circle-right";
+function creatfunctions(data) {
+  for (let i = 0; i < data.length; i++) {
+    let var1 = "icone" + i;
+    functions[var1] = function () {
+      clas = data[i].col1;
+    };
+  }
 }

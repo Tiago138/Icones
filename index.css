@@ -9,16 +9,17 @@ article {
   background-image: linear-gradient(to top, #d8dee9, white);
   border-radius: 5px;
   border: 1px solid rgba(0, 0, 0, 0.5);
+  padding-bottom: 10px;
 }
 #menu-el {
   list-style: none;
   font-size: 1em;
 }
 li {
-  width: 210px;
+  width: 200px;
+  padding: 10px;
   color: #2e3440;
   float: left;
-  margin: 5px;
   border: 1px solid rgba(0, 0, 0, 0);
   border-radius: 5px;
 }
@@ -30,7 +31,7 @@ li {
 }
 .icon-el::before {
   font-family: openiconic;
-  font-size: 48px;
+  font-size: 32px;
   float: left;
   margin: 0 5px;
 }
@@ -38,47 +39,12 @@ li:hover {
   border: 1px solid rgba(0, 0, 0, 0.3);
   border-radius: 5px;
 }
-.account-login::before {
-  content: "\e000";
-}
-.account-logout::before {
-  content: "\e001";
-}
-.action-redo::before {
-  content: "\e002";
-}
-.action-undo::before {
-  content: "\e003";
-}
-.align-center::before {
-  content: "\e004";
-}
-.align-left::before {
-  content: "\e005";
-}
-.align-right::before {
-  content: "\e006";
-}
-.aperture::before {
-  content: "\e007";
-}
-.arrow-bottom::before {
-  content: "\e008";
-}
-.arrow-circle-bottom::before {
-  content: "\e009";
-}
-.arrow-circle-left::before {
-  content: "\e00a";
-}
-.arrow-circle-right::before {
-  content: "\e00b";
-}
 .card-el {
   font-family: openiconic;
-  width: 220px;
+  width: 240px;
   border-radius: 5px;
   padding: 10px;
+  text-align: center;
 }
 .light {
   background-image: linear-gradient(to top, #e5e9f0, #eceff4);
@@ -91,11 +57,11 @@ li:hover {
   float: right;
 }
 .conjunto-el {
-  width: 490px;
+  width: 536px;
   position: fixed;
   top: 50%;
   left: 50%;
-  margin: -192px 0 0 -245px;
+  margin: -192px 0 0 -268px;
   z-index: 1;
   opacity: 1;
 }
@@ -138,11 +104,11 @@ li:hover {
 .aurora5 {
   color: #b48ead;
 }
-.overlay-el {
+#overlay-el {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0);
   width: 100%;
   height: 100%;
 }
