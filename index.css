@@ -25,7 +25,7 @@ li {
 }
 @font-face {
   font-family: openiconic;
-  src: url(/open-iconic.woff) format("woff");
+  src: url("/open-iconic.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
