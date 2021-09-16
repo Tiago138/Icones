@@ -23,18 +23,6 @@ li {
   border: 1px solid rgba(0, 0, 0, 0);
   border-radius: 5px;
 }
-@font-face {
-  font-family: openiconic;
-  src: url("./open-iconic.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-.icon-el::before {
-  font-family: openiconic;
-  font-size: 32px;
-  float: left;
-  margin: 0 5px;
-}
 li:hover {
   border: 1px solid rgba(0, 0, 0, 0.3);
   border-radius: 5px;
