@@ -1,5 +1,17 @@
 /** @format */
 
+@font-face {
+  font-family: openiconic;
+  src: url("./fonts/open-iconic.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+.icon-el::before {
+  font-family: openiconic;
+  font-size: 32px;
+  float: left;
+  margin: 0 5px;
+}
 body {
   background-color: #4c566a;
 }
